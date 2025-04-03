@@ -52,11 +52,11 @@ VS Code will load the interactive notebook interface.
 3. **Execute Cells:**
 The notebook is divided into cells:
 
-  **Installation Cell:** Contains pip installation commands.
+   **Installation Cell:** Contains pip installation commands.
 
-  **Imports and Function Definitions:** Contains all the necessary Python code for audio processing.
+   **Imports and Function Definitions:** Contains all the necessary Python code for audio processing.
 
-  **Main Execution Cell:** Contains the loop that records, processes, and prints transcriptions.
+   **Main Execution Cell:** Contains the loop that records, processes, and prints transcriptions.
 
  4. **Run each cell one-by-one using the "Run Cell" button. This helps in verifying that each part of the code is functioning correctly.**
 
