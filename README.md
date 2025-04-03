@@ -35,9 +35,9 @@ This project uses the `Harveenchadha/vakyansh-wav2vec2-telugu-tem-100` model fro
 
 2. **Install Dependencies:**
    Use pip to install the required libraries:
-   
-   ```bash
-   pip install torch torchaudio transformers sounddevice numpy scipy
+
+ ```bash
+ pip install torch torchaudio transformers sounddevice numpy scipy
    ```
 
 ## Running the Project with VS Code Jupyter Extension
