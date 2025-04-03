@@ -27,15 +27,16 @@ This project uses the `Harveenchadha/vakyansh-wav2vec2-telugu-tem-100` model fro
 1.  **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/MAvinash24/.git
+   git clone https://github.com/MAvinash24/ML_Project.git
    ```
    ```bash
-   cd 
+   cd ML_Project
    ```
 
 2. **Install Dependencies:**
 
    Use pip to install the required libraries:
+   
    ```bash
    pip install torch torchaudio transformers sounddevice numpy scipy
    ```
@@ -49,7 +50,6 @@ Ensure that you have installed the Python and Jupyter extensions from the VS Cod
 2. **Open the Notebook:**
 
 Open the .ipynb file provided in the repository.
-
 VS Code will load the interactive notebook interface.
 
 3. **Execute Cells:**
@@ -58,27 +58,22 @@ The notebook is divided into cells:
 
 4. **Installation Cell:** Contains pip installation commands.
 
-Imports and Function Definitions: Contains all the necessary Python code for audio processing.
-
-Main Execution Cell: Contains the loop that records, processes, and prints transcriptions.
-
+-**Imports and Function Definitions:** Contains all the necessary Python code for audio processing.
+-**Main Execution Cell:** Contains the loop that records, processes, and prints transcriptions.
 Run each cell one-by-one using the "Run Cell" button. This helps in verifying that each part of the code is functioning correctly.
 
 ## Debugging:
-
 Follow the debug messages printed in the terminal:
 
-[DEBUG] READY: System is ready to capture audio.
-
-[DEBUG] STOPPED: Audio capture has ended, and processing is beginning.
-
-[DEBUG] TRANSCRIPTION: The output text after processing.
+-**[DEBUG] READY:** System is ready to capture audio.
+-**[DEBUG] STOPPED:** Audio capture has ended, and processing is beginning.
+-**[DEBUG] TRANSCRIPTION:** The output text after processing.
 
 If issues arise, check each cell individually to isolate and resolve the error.
 
+### Note:
 Using Your Earphone as the Audio Input Device
 Make sure your earphone’s built-in microphone is selected as the default input device in your system settings.
-
 This setup ensures that the sounddevice library captures your speech accurately during the transcription process.
 
 ## Acknowledgements
