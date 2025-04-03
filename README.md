@@ -34,7 +34,6 @@ This project uses the `Harveenchadha/vakyansh-wav2vec2-telugu-tem-100` model fro
    ```
 
 2. **Install Dependencies:**
-
    Use pip to install the required libraries:
    
    ```bash
@@ -44,29 +43,30 @@ This project uses the `Harveenchadha/vakyansh-wav2vec2-telugu-tem-100` model fro
 ## Running the Project with VS Code Jupyter Extension
 
 1. **Open VS Code:**
-
 Ensure that you have installed the Python and Jupyter extensions from the VS Code Marketplace.
 
 2. **Open the Notebook:**
-
 Open the .ipynb file provided in the repository.
 VS Code will load the interactive notebook interface.
 
 3. **Execute Cells:**
-
 The notebook is divided into cells:
 
 4. **Installation Cell:** Contains pip installation commands.
 
 -**Imports and Function Definitions:** Contains all the necessary Python code for audio processing.
+
 -**Main Execution Cell:** Contains the loop that records, processes, and prints transcriptions.
+
 Run each cell one-by-one using the "Run Cell" button. This helps in verifying that each part of the code is functioning correctly.
 
 ## Debugging:
 Follow the debug messages printed in the terminal:
 
 -**[DEBUG] READY:** System is ready to capture audio.
+
 -**[DEBUG] STOPPED:** Audio capture has ended, and processing is beginning.
+
 -**[DEBUG] TRANSCRIPTION:** The output text after processing.
 
 If issues arise, check each cell individually to isolate and resolve the error.
