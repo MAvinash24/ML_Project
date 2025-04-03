@@ -24,7 +24,7 @@ This project uses the `Harveenchadha/vakyansh-wav2vec2-telugu-tem-100` model fro
 
 ## Setup and Installation
 
-   **Clone the Repository:**
+1.  **Clone the Repository:**
 
    ```bash
    git clone https://github.com/MAvinash24/.git
@@ -32,3 +32,55 @@ This project uses the `Harveenchadha/vakyansh-wav2vec2-telugu-tem-100` model fro
    ```bash
    cd 
    ```
+
+2. **Install Dependencies:**
+
+   Use pip to install the required libraries:
+   ```bash
+   pip install torch torchaudio transformers sounddevice numpy scipy
+   ```
+
+## Running the Project with VS Code Jupyter Extension
+
+1. **Open VS Code:**
+
+Ensure that you have installed the Python and Jupyter extensions from the VS Code Marketplace.
+
+2. **Open the Notebook:**
+
+Open the .ipynb file provided in the repository.
+
+VS Code will load the interactive notebook interface.
+
+3. **Execute Cells:**
+
+The notebook is divided into cells:
+
+4. **Installation Cell:** Contains pip installation commands.
+
+Imports and Function Definitions: Contains all the necessary Python code for audio processing.
+
+Main Execution Cell: Contains the loop that records, processes, and prints transcriptions.
+
+Run each cell one-by-one using the "Run Cell" button. This helps in verifying that each part of the code is functioning correctly.
+
+## Debugging:
+
+Follow the debug messages printed in the terminal:
+
+[DEBUG] READY: System is ready to capture audio.
+
+[DEBUG] STOPPED: Audio capture has ended, and processing is beginning.
+
+[DEBUG] TRANSCRIPTION: The output text after processing.
+
+If issues arise, check each cell individually to isolate and resolve the error.
+
+Using Your Earphone as the Audio Input Device
+Make sure your earphone’s built-in microphone is selected as the default input device in your system settings.
+
+This setup ensures that the sounddevice library captures your speech accurately during the transcription process.
+
+## Acknowledgements
+Special thanks to Harveenchadha for creating the pretrained vakyansh-wav2vec2-telugu-tem-100 model. Their contribution has been pivotal in making this project possible.
+
