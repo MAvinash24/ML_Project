@@ -54,11 +54,11 @@ The notebook is divided into cells:
 
 4. **Installation Cell:** Contains pip installation commands.
 
--**Imports and Function Definitions:** Contains all the necessary Python code for audio processing.
+  **Imports and Function Definitions:** Contains all the necessary Python code for audio processing.
 
--**Main Execution Cell:** Contains the loop that records, processes, and prints transcriptions.
+  **Main Execution Cell:** Contains the loop that records, processes, and prints transcriptions.
 
-Run each cell one-by-one using the "Run Cell" button. This helps in verifying that each part of the code is functioning correctly.
+**Run each cell one-by-one using the "Run Cell" button. This helps in verifying that each part of the code is functioning correctly.**
 
 ## Debugging:
 Follow the debug messages printed in the terminal:
@@ -71,7 +71,8 @@ Follow the debug messages printed in the terminal:
 
 If issues arise, check each cell individually to isolate and resolve the error.
 
-### Note:
+## Note:
+
 Using Your Earphone as the Audio Input Device
 Make sure your earphone’s built-in microphone is selected as the default input device in your system settings.
 This setup ensures that the sounddevice library captures your speech accurately during the transcription process.
