@@ -54,7 +54,7 @@ The notebook is divided into cells:
 
    **Installation Cell:** Contains pip installation commands.
 
-   **Imports and Function Definitions:** Contains all the necessary Python code for audio processing.
+   **Imports and Function Definitions:** Contains all the necessary Python code for the audio processing.
 
    **Main Execution Cell:** Contains the loop that records, processes, and prints transcriptions.
 
