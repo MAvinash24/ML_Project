@@ -80,3 +80,10 @@ This setup ensures that the sounddevice library captures your speech accurately 
 ## Acknowledgements
 Special thanks to Harveenchadha for creating the pretrained vakyansh-wav2vec2-telugu-tem-100 model. Their contribution has been pivotal in making this project possible.
 
+
+## Contributors  
+- **M. Avinash**  
+- **P.Vivek Reddy** 
+- **V.Sathvik**
+- **G.RajKushal** 
+
