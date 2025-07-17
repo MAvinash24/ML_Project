@@ -43,7 +43,7 @@ This project uses the `Harveenchadha/vakyansh-wav2vec2-telugu-tem-100` model fro
 ## Running the Project with VS Code Jupyter Extension
 
 1. **Open VS Code:**
-Ensure that you have installed the Python and Jupyter extensions from the VS Code Marketplace.
+Ensure that you have installed Python and Jupyter extensions from the VS Code Marketplace.
 
 2. **Open the Notebook:**
 Open the .ipynb file provided in the repository.
