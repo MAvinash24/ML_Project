@@ -5,7 +5,7 @@ A real-time speech-to-text transcription system for Telugu using a pretrained AS
 
 ## Overview
 
-This project uses the `Harveenchadha/vakyansh-wav2vec2-telugu-tem-100` model from Hugging Face to convert Telugu speech into text in real-time. The system captures live audio through your earphone's microphone and processes it using modern deep learning libraries.
+This project uses the `Harveenchadha/vakyansh-wav2vec2-telugu-tem-100` model from Hugging Face to convert Telugu speech into text in real-time.The system captures live audio through your earphone's microphone and processes it using modern deep learning libraries.
 
 ## Features
 
