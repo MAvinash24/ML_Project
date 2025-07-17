@@ -9,7 +9,7 @@ This project uses the `Harveenchadha/vakyansh-wav2vec2-telugu-tem-100` model fro
 
 ## Features
 
-- **Real-Time Transcription:** Captures and transcribes Telugu speech live.
+- **Real-Time Transcription:** Captures and transcribes the Telugu speech live.
 - **Pretrained ASR Model:** Utilizes a state-of-the-art model created by [Harveenchadha](https://huggingface.co/Harveenchadha).
 - **Interactive Development:** Built and debugged using VS Code with the Jupyter extension.
 
