@@ -1,7 +1,7 @@
 # ML_Project
 # Live Telugu Speech Recognition
 
-A real-time speech-to-text transcription system for Telugu using a pretrained ASR model.
+A real-time speech-to-text transcription system for Telugu language using a pretrained ASR model.
 
 ## Overview
 
